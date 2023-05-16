@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+}
+
+#homePage {
+    background: linear-gradient(rgb(0 0 0 / 77%), rgb(0 0 0 / 77%)), url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+}
+
+nav ul {
+    padding: 0% 5%;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.container h3 {
+    padding-top: 50px;
+    color: orangered;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h2 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.container p {
+    padding-top: 20px;
+    opacity: 0.7;
+}
+
+.container button {
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+/* about section */
+
+.aboutSection .container img {
+    width: 90%;
+}
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="homePage">
+                <nav>
+                    <ul>
+                        <li><a href="" class="active">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICES</a></li>
+                    </ul>
+                    <img src="./My project.png" alt="">
+                    <ul>
+                        <li><a href=""> MENU</a></li>
+                        <li><a href=""> PRICING</a></li>
+                        <li><a href=""> CONTACT US </a></li>
+                    </ul>
+                </nav>
+
+                <div class="container">
+                    <h3>Welcome To Kirtan Caterers</h3>
+                    <h2>We Deserve High Quality Food Catering For Your Event</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Harum dignissimos sint ipsam repellendus ab nobis
+                        numquam aut aspernatur soluta ratione accusantium
+                        commodi repudiandae vel vitae eius tempore expedita
+                        nesciunt, accusamus vero quam saepe exercitationem.
+                        Tenetur laudantium temporibus repudiandae velit et
+                        sapiente illo eos facere officiis?
+                    </p>
+                    <button>CONTACT US</button>
+                </div>
+            </div>
+            <div class="aboutSection">
+                <div class="container">
+                    <img src="./about.jpg" alt="">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
